@@ -78,7 +78,7 @@ CREATE OR REPLACE FUNCTION bktree_get_distance(int8, int8) RETURNS int8 AS
 'MODULE_PATHNAME','bktree_get_distance'
 LANGUAGE C IMMUTABLE STRICT;
 
-CREATE OPERATOR <-> (
+CREATE OPERATOR <~> (
 	LEFTARG = int8,
 	RIGHTARG = int8,
 	PROCEDURE = bktree_get_distance
