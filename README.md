@@ -2,7 +2,7 @@ pg-spgist_hamming
 ==============
 
 Changes in fork:
-Changed operator for accessing the distance mechanism from <-> to <~> becase <-> is already taken by btree_gist.
+* Changed operator for accessing the distance mechanism from <-> to <~> becase <-> is already taken by btree_gist.
 
 Tested on PostgreSQL 9.6 and 11 
 
